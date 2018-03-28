@@ -1,0 +1,32 @@
+/*class attributes definition for image*/
+.name_panda{
+  color: white;
+}
+.image_panda {
+    margin-left: 9px;
+    width: 300px;
+    padding-bottom: 1em;
+}
+/*class attributes definition for border of inside text*/
+.border_inside {
+    border: thin solid silver;
+    font-size: 13px;
+    margin-left: 9px;
+    width: 280px;
+    padding : 10px;
+    background-color: #9ce31e;
+}
+/*class attributes definition for border of the entire image and text*/
+.border_outside {
+    border: thin solid silver; 
+    box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.36); /* entering shadow */
+    width: 320px;
+    padding: 1em;
+    background-image: url("http://www.mattmorris.com/wp-content/uploads/2013/01/ChineseBambooTree.jpg");
+    
+}
+/*class attributes definition for the list*/
+.unordered_list { 
+    list-style-type: none; /* style of the list set as none*/
+    margin-left: -40px;
+  }
